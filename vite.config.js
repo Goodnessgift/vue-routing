@@ -15,5 +15,10 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
+  },
+  base:'/vue-routing/',
+  build:{
+    outDir: 'docs', //Ensure this points to the correct output directory
+    assetsDir: 'assets'
   }
 })
