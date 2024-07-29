@@ -17,7 +17,7 @@ import RandomView from '@/components/RandomView.vue';
       </div>
       
     </div>
-</template>
+</template> 
 
 <style scoped>
     .container{
